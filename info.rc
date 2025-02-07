@@ -1,0 +1,24 @@
+id ICON "C:/Your/Absolute/Path/To/The/Icon/appicon.ico"
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "your-company-llc"
+      VALUE "FileDescription", "your-file-description"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "Program"
+      VALUE "LegalCopyright", "(C) your-company-llc year"
+      VALUE "OriginalFilename", "main.exe"
+      VALUE "ProductName", "Program"
+      VALUE "ProductVersion", "1.0.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END
